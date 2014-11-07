@@ -17,6 +17,7 @@ h1 {
 	display: inline-block;
 	width: 100%;
 	text-align: center;
+	text-shadow: 0px 1px 6px #000000;
 }
 p {
 	font-family: Roboto Slab;
@@ -61,6 +62,7 @@ h3 {
 	display: inline-block;
 	width: 100%;
 	text-align: center;
+	text-shadow: 0px 1px 6px #000000;
 }
 ul.plataformas {
 	list-style: none;
@@ -70,6 +72,29 @@ ul.plataformas {
 ul.plataformas li {
 	float: left;
 	margin: 10px;
+}
+button.btn {
+	font-family: Roboto Slab;
+	color: #fff;
+	display: block;
+	vertical-align: middle;
+	cursor: pointer;
+	line-height: 2.428571;
+	text-align: center;
+	background-image: none;
+	border: 0px solid transparent;
+	border-radius: 4px;
+	white-space: nowrap;
+	padding: 6px 12px;
+	background-color: white;
+	font-weight: bold;
+	background: -webkit-linear-gradient(rgb(34, 36, 45), rgb(14, 14, 16)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(rgb(34, 36, 45), rgb(14, 14, 16)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(rgb(34, 36, 45), rgb(14, 14, 16)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(rgb(34, 36, 45), rgb(14, 14, 16)); /* Standard syntax (must be last) */
+    box-shadow: 0px 2px 6px #080808;
+    margin: 20px auto;
+
 }
 
 
